@@ -173,7 +173,7 @@
 
 .card p{
     color: #627382;
-    
+
 }
 .card h4, p{
     margin-left: 10px;
@@ -184,4 +184,37 @@
     font-weight: 500;
     letter-spacing: 1.5px;
     line-height: 1.2;
+}
+
+#two-card-section{
+    width: 1600px;
+    height: 840px;
+}
+
+.tcs-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 120px;
+    gap: 60px;
+}
+
+.two-card h1{
+    font-size: 3rem;
+}
+
+.two-card .tc-p{
+    color: #30B868;
+}
+
+.tc-two-p{
+    color: #627382;
+}
+
+.two-card h1{
+    margin-left: 9px;
+}
+
+.two-card .card-img{
+    margin-top: 40px;
 }
