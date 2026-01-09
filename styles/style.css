@@ -11,6 +11,7 @@
 #main-header .navbar{
     display: flex;
     justify-content: space-around;
+    height: 92px;
     max-width: 1600px;
     align-items: center;
     gap: 120px;
@@ -41,6 +42,8 @@
 }
 
 #bg-section{
+    width: 1600px;
+    height: 674px;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -139,6 +142,11 @@
     font-size: 1.4rem;
 }
 
+#card{
+    width: 1600px;
+    height: 448px;
+}
+
 #card-section .card{
     width: 322px;
     height: 300px;
@@ -217,4 +225,27 @@
 
 .two-card .card-img{
     margin-top: 40px;
+}
+
+#challenges{
+    height: 506px;
+    width: 1600px;
+}
+
+#challenges .challenges-container{
+    background-color: #F7F6F2;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 0px 120px 120px;
+    height: 384px;
+}
+
+.challenges-container h1{
+    font-size: 2.5rem;
+}
+
+.challenges-container p{
+    color: #627382;
 }
